@@ -1,0 +1,242 @@
+:root {
+  --bg: #fff;
+}
+
+@font-face {
+  font-family: Montserrat;
+  src: url(/fonts/Montserrat-Regular.ttf);
+  font-weight: 400;
+}
+
+@font-face {
+  font-family: MontserratBold;
+  src: url(/fonts/Montserrat-Bold.ttf);
+  font-weight: 800;
+}
+
+body {
+  background-color: var(--bg);
+}
+
+.container {
+  margin: 0 auto;
+  width: 1010px;
+}
+
+.header {
+  height: 688px;
+  background-color: rgba(221, 34, 17, 0.129);
+  background-image: url(/img/header_bg.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.header__topmenu {
+  padding-top: 18px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.header_menu {
+  display: flex;
+  gap: 32px;
+}
+.header_menu__item {
+  font-family: Montserrat;
+  font-size: 18px;
+  line-height: 22px;
+  color: #fff;
+  text-transform: uppercase;
+  transition: box-shadow 0.3s ease-in-out;
+
+  & a {
+    text-decoration: none;
+    color: inherit;
+  }
+
+  & :hover {
+      border-radius: 1px;
+      box-shadow: 0 0 0 10px #130e27;
+      background-color: #130e27;
+    }
+    
+  }
+}
+.header_block {
+  padding-top: 150px;
+}
+.header_block__title {
+  font-size: 90px;
+  line-height: 80px;
+  font-family: MontserratBold;
+  text-transform: uppercase;
+  width: 550px;
+  padding-top: 160px;
+}
+
+.title_white {
+  color: #fff;
+}
+.header_block__desc {
+  font-family: serif;
+  color: #fff;
+  font-size: 20px;
+  line-height: 28px;
+  width: 550px;
+  padding-top: 55px;
+}
+.services__inner {
+}
+.services__title {
+  padding-top: 45px;
+  font-family: MontserratBold;
+  font-size: 50px;
+  line-height: 80px;
+  color: #130e27;
+  text-transform: uppercase;
+}
+
+.red_title {
+  color: #c62314;
+}
+
+.services__block {
+  display: flex;
+  justify-content: space-between;
+  padding: 100px 0 75px 0;
+}
+.services_block__item {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  width: 170px;
+}
+.services_block__icon {
+  width: 145px;
+  height: 155px;
+}
+.services_block_desc {
+  padding-top: 50px;
+  font-family: serif;
+  color: #161616;
+  font-size: 20px;
+  line-height: 28px;
+}
+.story {
+  background-color: #130e27;
+  padding: 32px 0 25px 0;
+}
+.story_text {
+  color: #fff;
+  font-family: serif;
+  font-size: 20px;
+  lighting-color: 28px;
+  width: 625px;
+}
+
+.story_inner {
+  display: flex;
+  justify-content: space-between;
+}
+
+.story_btn {
+  color: #fff;
+  width: 270px;
+  height: 65px;
+  background-color: #c62314;
+  border-radius: 8px;
+  text-transform: uppercase;
+  text-align: center;
+  line-height: 65px;
+  font-family: Montserrat;
+  font-size: 22px;
+  transition: 0.3s ease-in-out;
+
+  &:hover {
+    background-color: #c6665d;
+  }
+}
+.pricing {
+  background-color: #efefef;
+}
+.pricing__title {
+  font-size: 50px;
+  line-height: 50px;
+  font-family: MontserratBold;
+  text-align: center;
+  text-transform: uppercase;
+  padding: 64px 0 60px 0;
+}
+.pricing__block {
+  display: flex;
+  justify-content: space-between;
+  padding-bottom: 65px;
+}
+.pricing__item {
+  background-color: #fff;
+  border-radius: 5px;
+  text-align: center;
+  width: 320px;
+  height: 450px;
+  display: flex;
+  flex-direction: column;
+}
+.pricing_item__title {
+  padding: 35px 0 40px 0;
+  font-family: serif;
+  font-size: 22px;
+  line-height: 28px;
+
+}
+.pricing_item_price {
+  font-family: MontserratBold;
+  font-size: 60px;
+  line-height: 80px;
+  color: #c62314;
+  padding-bottom: 40px;
+}
+.pricing_item_feat {
+  font-family: serif;
+  font-size: 20px;
+  line-height: 28px;
+}
+
+.pricing_link {
+  align-self: center;
+  text-decoration: none;
+  margin: 35px 0 15px 0;
+  text-transform: uppercase;
+  width: 205px;
+  height: 50px;
+  background-color: #161616;
+  color: #fff;
+  font-family: Montserrat;
+  font-size: 22px;
+  border-radius: 5px; 
+  line-height: 36px;
+  transition: 0.3s ease-in-out;
+
+  &:hover {
+    background-color: #c62314;
+  }
+}
+
+.footer {
+  background-color: #130e27;
+}
+.footer_inner {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.footer_text {
+  font-family: serif;
+  font-size: 20px;
+  line-height: 22px;
+  padding: 80px 0 95px 0;
+  color: #fff;
+
+  & a {
+    color: #c62314;
+  }
+}
