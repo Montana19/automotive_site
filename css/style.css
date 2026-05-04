@@ -4,13 +4,13 @@
 
 @font-face {
   font-family: Montserrat;
-  src: url(/fonts/Montserrat-Regular.ttf);
+  src: url(../fonts/Montserrat-Regular.ttf);
   font-weight: 400;
 }
 
 @font-face {
   font-family: MontserratBold;
-  src: url(/fonts/Montserrat-Bold.ttf);
+  src: url(../fonts/Montserrat-Bold.ttf);
   font-weight: 800;
 }
 
@@ -26,7 +26,7 @@ body {
 .header {
   height: 688px;
   background-color: rgba(221, 34, 17, 0.129);
-  background-image: url(/img/header_bg.png);
+  background-image: url(../img/header_bg.png);
   background-repeat: no-repeat;
   background-size: cover;
 }
