@@ -37,10 +37,12 @@ body {
   justify-content: space-between;
   align-items: center;
 }
+
 .header_menu {
   display: flex;
   gap: 32px;
 }
+
 .header_menu__item {
   font-family: Montserrat;
   font-size: 18px;
@@ -54,17 +56,13 @@ body {
     color: inherit;
   }
 
-  & :hover {
-      border-radius: 1px;
-      box-shadow: 0 0 0 10px #130e27;
-      background-color: #130e27;
-    }
-    
-  }
+  &:hover {
+    border-radius: 1px;
+    box-shadow: 0 0 0 10px #130e27;
+    background-color: #130e27;
+  }   
 }
-.header_block {
-  padding-top: 150px;
-}
+
 .header_block__title {
   font-size: 90px;
   line-height: 80px;
@@ -77,6 +75,7 @@ body {
 .title_white {
   color: #fff;
 }
+
 .header_block__desc {
   font-family: serif;
   color: #fff;
@@ -85,6 +84,7 @@ body {
   width: 550px;
   padding-top: 55px;
 }
+
 .services__title {
   padding-top: 45px;
   font-family: MontserratBold;
@@ -103,16 +103,20 @@ body {
   justify-content: space-between;
   padding: 100px 0 75px 0;
 }
+
 .services_block__item {
   display: flex;
   flex-direction: column;
   text-align: center;
+  align-items: center;
   width: 170px;
 }
+
 .services_block__icon {
   width: 145px;
   height: 155px;
 }
+
 .services_block_desc {
   padding-top: 50px;
   font-family: serif;
@@ -120,10 +124,12 @@ body {
   font-size: 20px;
   line-height: 28px;
 }
+
 .story {
   background-color: #130e27;
   padding: 32px 0 25px 0;
 }
+
 .story_text {
   color: #fff;
   font-family: serif;
@@ -154,9 +160,11 @@ body {
     background-color: #c6665d;
   }
 }
+
 .pricing {
   background-color: #efefef;
 }
+
 .pricing__title {
   font-size: 50px;
   line-height: 50px;
@@ -165,11 +173,13 @@ body {
   text-transform: uppercase;
   padding: 64px 0 60px 0;
 }
+
 .pricing__block {
   display: flex;
   justify-content: space-between;
   padding-bottom: 65px;
 }
+
 .pricing__item {
   background-color: #fff;
   border-radius: 5px;
@@ -179,13 +189,14 @@ body {
   display: flex;
   flex-direction: column;
 }
+
 .pricing_item__title {
   padding: 35px 0 40px 0;
   font-family: serif;
   font-size: 22px;
   line-height: 28px;
-
 }
+
 .pricing_item_price {
   font-family: MontserratBold;
   font-size: 60px;
@@ -193,6 +204,7 @@ body {
   color: #c62314;
   padding-bottom: 40px;
 }
+
 .pricing_item_feat {
   font-family: serif;
   font-size: 20px;
@@ -222,11 +234,13 @@ body {
 .footer {
   background-color: #130e27;
 }
+
 .footer_inner {
   display: flex;
   justify-content: space-between;
   align-items: center;
 }
+
 .footer_text {
   font-family: serif;
   font-size: 20px;
