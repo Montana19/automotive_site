@@ -233,7 +233,8 @@ body {
   font-family: serif;
   font-size: 20px;
   lighting-color: 28px;
-  width: 625px;
+  max-width: 625px;
+  width: 100%;
 }
 
 .story_inner {
