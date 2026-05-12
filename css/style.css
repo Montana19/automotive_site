@@ -26,7 +26,7 @@ body {
 }
 
 .header {
-  min-height: 688px;
+  min-height: 670px;
   background-color: rgba(221, 34, 17, 0.129);
   background-image: url(../img/header_bg.png);
   background-repeat: no-repeat;
@@ -48,6 +48,7 @@ body {
 
 .logo {
   align-self: start;
+
 }
 
 .header_menu__item {
@@ -156,7 +157,7 @@ body {
   flex-direction: column;
   gap: 12px;
   list-style-type: none;
-  transform: translateX(60px);
+  transform: translateX(70px);
   transition: .3s;
   height: 70px;
 }
@@ -211,8 +212,8 @@ body {
 }
 
 .services_block__icon {
-  width: 145px;
-  height: 155px;
+  width: 163px;
+  height: 142px;
 }
 
 .services_block_desc {
@@ -286,6 +287,7 @@ body {
   background-color: #fff;
   border-radius: 5px;
   text-align: center;
+  margin: 0 auto;
   width: 320px;
   height: 450px;
   display: flex;
@@ -384,5 +386,24 @@ body {
   .header_block__title {
     font-size: 60px;
     padding-top: 100px;
+  }
+}
+
+@media screen and (max-width: 385px) {
+
+  .logo img {
+    width: 200px;
+  }
+
+  .header {
+    min-height: 625px;
+  }
+
+  .header__burger {
+    padding-top: 15px;
+  }
+
+  .header_block__title {
+    padding-top: 0;
   }
 }
