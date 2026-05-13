@@ -16,6 +16,7 @@
 
 body {
   background-color: var(--bg);
+  user-select: none;
 }
 
 .container {
@@ -57,7 +58,8 @@ body {
   line-height: 22px;
   color: #fff;
   text-transform: uppercase;
-  transition: box-shadow 0.3s ease-in-out;
+  transition: background-color 0.3s ease-in-out;
+  padding: 10px;
 
   & a {
     text-decoration: none;
@@ -65,8 +67,8 @@ body {
   }
 
   &:hover {
-    border-radius: 1px;
-    box-shadow: 0 0 0 10px #130e27;
+    border-radius: 3px;
+    /* box-shadow: 0 0 0 10px #130e27; */
     background-color: #130e27;
   }   
 }
@@ -152,7 +154,7 @@ body {
 
 .menu-list {
   display: flex;
-  position: absolute;
+  position: fixed;
   justify-content: center;
   flex-direction: column;
   gap: 12px;
